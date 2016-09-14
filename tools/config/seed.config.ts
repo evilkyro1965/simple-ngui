@@ -285,6 +285,7 @@ export class SeedConfig {
    * @type {InjectableDependency[]}
    */
   APP_ASSETS: InjectableDependency[] = [
+    { src: `${this.CSS_SRC}/simplengui.${this.getInjectableStyleExtension()}`, inject: true, vendor: false },
     { src: `${this.CSS_SRC}/main.${this.getInjectableStyleExtension()}`, inject: true, vendor: false },
   ];
 

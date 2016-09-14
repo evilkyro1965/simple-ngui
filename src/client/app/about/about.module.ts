@@ -4,10 +4,11 @@ import { AboutComponent } from './about.component';
 
 
 import { KInput } from '../simplengui/kinput';
+import { KSelect } from '../simplengui/kselect';
 
 @NgModule({
     imports: [CommonModule],
-    declarations: [AboutComponent,KInput],
+    declarations: [AboutComponent,KInput,KSelect],
     exports: [AboutComponent]
 })
 
